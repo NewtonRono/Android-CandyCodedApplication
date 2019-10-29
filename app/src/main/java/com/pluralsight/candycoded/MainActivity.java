@@ -90,8 +90,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.info) {
-            Intent intent = new Intent(MainActivity.this, InfoActivity.class);
-            startActivity(intent);
+            Intent infoIntent = new Intent(MainActivity.this, InfoActivity.class);
+            startActivity(infoIntent);
         }
 
         return super.onOptionsItemSelected(item);
